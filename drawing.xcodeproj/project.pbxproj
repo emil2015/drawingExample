@@ -21,6 +21,7 @@
 		20E523291A01804D003C5075 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E5230B1A01804D003C5075 /* UIKit.framework */; };
 		20E523311A01804D003C5075 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20E5232F1A01804D003C5075 /* InfoPlist.strings */; };
 		20E523331A01804D003C5075 /* drawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E523321A01804D003C5075 /* drawingTests.m */; };
+		20E5233E1A018286003C5075 /* SetCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E5233D1A018286003C5075 /* SetCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		20E5232E1A01804D003C5075 /* drawingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drawingTests-Info.plist"; sourceTree = "<group>"; };
 		20E523301A01804D003C5075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20E523321A01804D003C5075 /* drawingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawingTests.m; sourceTree = "<group>"; };
+		20E5233C1A018286003C5075 /* SetCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardView.h; sourceTree = "<group>"; };
+		20E5233D1A018286003C5075 /* SetCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				20E5231C1A01804D003C5075 /* ViewController.h */,
 				20E5231D1A01804D003C5075 /* ViewController.m */,
 				20E5231F1A01804D003C5075 /* Images.xcassets */,
+				20E5233C1A018286003C5075 /* SetCardView.h */,
+				20E5233D1A018286003C5075 /* SetCardView.m */,
 				20E5230E1A01804D003C5075 /* Supporting Files */,
 			);
 			path = drawing;
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20E5231E1A01804D003C5075 /* ViewController.m in Sources */,
+				20E5233E1A018286003C5075 /* SetCardView.m in Sources */,
 				20E523181A01804D003C5075 /* AppDelegate.m in Sources */,
 				20E523141A01804D003C5075 /* main.m in Sources */,
 			);
